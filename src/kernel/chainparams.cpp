@@ -170,7 +170,7 @@ public:
         fDefaultConsistencyChecks = false;
         m_is_mockable_chain = false;
 
-m_assumeutxo_data = {};
+        m_assumeutxo_data = {};
 
         chainTxData = ChainTxData{
             // Data from RPC: getchaintxstats 4096 00000000000000000000748969ec33043c0e52a763c6dd5193861f559f2c72e3
