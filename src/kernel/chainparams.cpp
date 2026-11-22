@@ -154,7 +154,7 @@ public:
         genesis = CreateGenesisBlock(1795381200, 3198781872, 0x1d00ffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256{"00000000aaa718b904f0452eb1e58365d22adb6704d15eb93c79911b9f9229d8"});
-        assert(genesis.hashMerkleRoot == uint256{"4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"});
+        assert(genesis.hashMerkleRoot == uint256{"737b4dae82e7819034b31db50521946a922bfadf3e20e4ad2c8bdf12311d57b3"});
  
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,66);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,100);
