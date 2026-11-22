@@ -134,8 +134,8 @@ public:
 
         ApplyDeploymentOptions(opts.dep_opts);
 
-        consensus.nMinimumChainWork = uint256{"000000000000000000000000000000000000000145ec036acc5ba740052af1a0"};
-        consensus.defaultAssumeValid = uint256{"00000000000000000000748969ec33043c0e52a763c6dd5193861f559f2c72e3"}; // 966143
+        consensus.nMinimumChainWork = uint256{};
+        consensus.defaultAssumeValid = uint256{};
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
