@@ -165,7 +165,7 @@ public:
         bech32_hrp = "bc";
         silent_payments_hrp = "sp";
 
-        vFixedSeeds = std::vector<uint8_t>(std::begin(chainparams_seed_main), std::end(chainparams_seed_main));
+        vFixedSeeds.clear();
 
         fDefaultConsistencyChecks = false;
         m_is_mockable_chain = false;
