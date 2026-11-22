@@ -113,12 +113,12 @@ public:
         consensus.signet_challenge.clear();
         consensus.nSubsidyHalvingInterval = 150000;
         consensus.BIP34Height = 1;
-consensus.BIP34Hash = uint256{};
-consensus.BIP65Height = 1;
-consensus.BIP66Height = 1;
-consensus.CSVHeight = 1;
-consensus.SegwitHeight = 1;
-consensus.MinBIP9WarningHeight = 0;
+        consensus.BIP34Hash = uint256{};
+        consensus.BIP65Height = 1;
+        consensus.BIP66Height = 1;
+        consensus.CSVHeight = 1;
+        consensus.SegwitHeight = 1;
+        consensus.MinBIP9WarningHeight = 0;
         consensus.MinBIP9WarningHeight = 711648; // taproot activation height + miner confirmation window
         consensus.powLimit = uint256{"00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"};
         consensus.nPowTargetTimespan = 2016 * 6 * 60; // 2016 blocos de 6 min
