@@ -64,7 +64,7 @@ endif()
 
 set(COPYRIGHT_HOLDERS "The %s developers")
 set(COPYRIGHT_HOLDERS_FINAL "The ${CLIENT_NAME} developers")
-set(HOMEPAGE_URL "https://github.com/psycure69/TRC"
+set(CLIENT_BUGREPORT "https://github.com/psycure69/TRC/issues")
 #=============================
 # Language setup
 #=============================
